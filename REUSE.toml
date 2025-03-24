@@ -1,0 +1,16 @@
+version = 1
+SPDX-PackageName = "Stream module for Socket.IO"
+SPDX-PackageSupplier = "Graeme Perrow <graeme.perrow@sap.com>"
+SPDX-PackageDownloadLocation = "https://github.com/SAP/node-socketio-stream"
+
+[[annotations]]
+path = ["package.json", "README.md", "package-lock.json", "CONTRIBUTING.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020-2023 SAP SE or an SAP affiliate company and node-socketio-stream contributors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["index.js", ".gitignore", ".npmignore", ".travis.yml", ".zuul.yml", "lib", "test"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2015 Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>"
+SPDX-License-Identifier = "MIT"
