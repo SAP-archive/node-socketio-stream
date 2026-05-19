@@ -1,4 +1,6 @@
 # Stream module for Socket.IO
+[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
 
 This library is an update to the [socket.io-stream](https://github.com/nkzawa/socket.io-stream) node module. No code changes have been made,
 but the `debug` module has been updated to avoid a security vulnerability in the existing project.
